@@ -12,10 +12,12 @@ h3{
 }
 .center{
 text-align: center;
+    font-size: 5vh;
 }
 ul{
   display:inline-block;
   text-align: left;
+  font-size: 3vh;
   
 }
 
