@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-left,
+.card-right {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #1983e6;
+    gap: 10px;
+}
+
+.main .card .card-right {
+    background-color: transparent;
+}
+
+
+.innerCard {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.innerBox {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: crimson;
+}
+
+.main .card:first-child .card-right .innerCard:nth-child(2) {
+    background-color: transparent;
+}
+
+.main .card .card-right .innerCard:nth-child(3) {
+    background-color: transparent;
+}
+
+.main .card .card-right .innerCard:nth-child(2) .innerBox:first-child {
+    background-color: tan;
+}
+
+.main .card .card-left:first-child {
+    flex-direction: column;
+}
+
+.main .card .card-left:nth-child(1) .innerCard {
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.main .card:nth-child(2) .card-left:nth-child(1) {
+    background-color: transparent;
+}
+
+.main .card:nth-child(2) .card-left:first-child > .innerBox:nth-child(1)  {
+    background-color: magenta;
+}
+.main .card:nth-child(2) .card-right:nth-child(2) .innerCard:nth-child(3) .innerBox:nth-child(1) {
+    background-color: tan;
+} 
