@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Tahoma;
+}
+h3{
+  text-align: center;
+        font-size: 5vh;
+
+}
+.center{
+text-align: center;
+}
+ul{
+  display:inline-block;
+  text-align: left;
+  font-size: 3vh;
+  
+}
+
+a{
+  color: #969696;
+}
+li:hover, a:hover {
+    color: mediumslateblue;
+}
+
+h3 {
+    color: azure;
+}
